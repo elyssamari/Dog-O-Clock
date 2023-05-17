@@ -1,0 +1,12 @@
+.DogGallery{
+    justify-content: center;
+    background-color: #9FD4F2;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.dog-gallery-title{
+    color: #2F2E41;
+}

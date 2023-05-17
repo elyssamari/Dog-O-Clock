@@ -12,17 +12,23 @@ function Instructions() {
       <Stack className="blobs" spacing={0} direction="row">
         <div>
         <img alt="instruction-1" src="/blob1.png" style={{width:300, height:300}}/>
-        <Typography className="desc" style={{ fontFamily: "Inter", marginTop: 20}}  sx={{ml:18, mr:18}}>Hit the generate button to randomize through various dogs. </Typography>
+        <Typography className="desc" style={{ fontFamily: "Inter", marginTop: 20}}  sx={{ml:18, mr:18}}>
+          Hit the generate button to randomize through various dogs. 
+        </Typography>
         </div>
 
         <div>
         <img alt="instruction-2" src="/blob2.png" style={{width:300, height:300}}/>
-        <Typography className="desc" style={{ fontFamily: "Inter", marginTop: 20}} sx={{ml:18, mr:18}}>Went to fast? Press the previous button to see the dog before. </Typography>
+        <Typography className="desc" style={{ fontFamily: "Inter", marginTop: 20}} sx={{ml:18, mr:18}}>
+          Went to fast? Press the previous button to see the dog before. 
+        </Typography>
         </div>
 
         <div>
         <img alt="instruction-3" src="/blob3.png" style={{width:300, height:300}}/>
-        <Typography className="desc-1" style={{ fontFamily: "Inter", marginTop: 20}} sx={{ml:18, mr:18}}>To see a closer looks, click on the photo and a pop-up will appear. </Typography>
+        <Typography className="desc-1" style={{ fontFamily: "Inter", marginTop: 20}} sx={{ml:18, mr:18}}>
+          To see a closer looks, click on the photo and a pop-up will appear. 
+        </Typography>
         </div>
       </Stack>
 
