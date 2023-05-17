@@ -1,0 +1,12 @@
+.Home{
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.home-title{
+    color: #2F2E41;
+}

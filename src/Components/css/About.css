@@ -1,0 +1,20 @@
+.About{
+    margin-top: 8rem;
+    background-color: #D0F4DE;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.about-text{
+    margin-top: 4rem;
+    margin-left: 19rem;
+    margin-right: 19rem;
+    margin-bottom: 8rem;
+}
+
+.home-buttons{
+    position: fixed;
+}
