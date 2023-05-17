@@ -56,8 +56,8 @@ function Home(props) {
             <Typography className="breed-name" variant="h4" sx={{ flexGrow: 1 }} style={{ fontFamily: "Inter", fontWeight: 600, margin: 30, color: "#2f2e41"}}>{breedName}r</Typography>
 
             <Stack spacing={4} direction="row">
-            <Button className="home-buttons" variant="contained" onClick={fetchPreviousImg} style={{ fontFamily: "Inter", color: "#5B5B5B", backgroundColor: "#D9D9D9"}}>Previous</Button>
-            <Button className="home-buttons" variant="contained" onClick={getDogImage} style={{ fontFamily: "Inter", backgroundColor: "#2f2e41"}}>Generate</Button>
+            <Button variant="contained" onClick={fetchPreviousImg} style={{ fontFamily: "Inter", color: "#5B5B5B", backgroundColor: "#D9D9D9"}}>Previous</Button>
+            <Button variant="contained" onClick={getDogImage} style={{ fontFamily: "Inter", backgroundColor: "#2f2e41"}}>Generate</Button>
             </Stack>
         </div>
     );

@@ -1,0 +1,15 @@
+.Instructions{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.instruction-title{
+    color: #2F2E41;
+}
+
+.blobs{
+    margin-top: 2rem;
+}

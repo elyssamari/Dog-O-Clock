@@ -8,11 +8,24 @@
     flex-direction: column;
 }
 
+.about-title{
+    color: #2F2E41;
+}
+
 .about-text{
-    margin-top: 4rem;
-    margin-left: 19rem;
-    margin-right: 19rem;
-    margin-bottom: 8rem;
+    margin-top: 2rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    margin-bottom: 15rem;
+}
+
+@media screen and (max-width: 1500px){
+    .about-text{
+        margin-top: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 8rem;
+    }
 }
 
 .home-buttons{
