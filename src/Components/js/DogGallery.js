@@ -41,59 +41,59 @@ export default DogGallery;
 const itemData = [
   {
     img: "https://images.dog.ceo/breeds/puggle/IMG_174753.jpg",
-    title: 'puggle',
+    title: 'breed: puggle',
     rows: 2,
     cols: 2,
   },
   {
     img: "https://images.dog.ceo/breeds/stbernard/n02109525_15376.jpg",
-    title: 'stbernard',
+    title: 'breed: stbernard',
   },
   {
     img: "https://images.dog.ceo/breeds/labrador/n02099712_5941.jpg",
-    title: 'labrador',
+    title: 'breed: labrador',
   },
   {
     img: "https://images.dog.ceo/breeds/african/n02116738_3819.jpg",
-    title: 'african',
+    title: 'breed: african',
     cols: 2,
   },
   {
     img:  "https://images.dog.ceo/breeds/spitz-japanese/tofu.jpg",
-    title: 'spitz-japanese',
+    title: 'breed: spitz-japanese',
     cols: 2,
   },
   {
     img: "https://images.dog.ceo/breeds/terrier-border/n02093754_3428.jpg",
-    title: 'terrier-border',
+    title: 'breed: terrier-border',
     rows: 2,
     cols: 2,
   },
   {
     img: "https://images.dog.ceo/breeds/hound-basset/n02088238_11113.jpg",
-    title: 'hound-basset',
+    title: 'breed: hound-basset',
   },
   {
     img: "https://images.dog.ceo/breeds/pitbull/pitbull_dog.jpg",
-    title: 'pitbull',
+    title: 'breed: pitbull',
   },
   {
     img:   "https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg",
-    title: 'finnish-lapphund',
+    title: 'breed: finnish-lapphund',
     rows: 2,
     cols: 2,
   },
   {
     img: "https://images.dog.ceo/breeds/brabancon/n02112706_1114.jpg",
-    title: 'brabancon',
+    title: 'breed: brabancon',
   },
   {
     img: "https://images.dog.ceo/breeds/leonberg/n02111129_974.jpg",
-    title: 'leonberg',
+    title: 'breed: leonberg',
   },
   {
     img: "https://images.dog.ceo/breeds/frise-bichon/5.jpg",
-    title: 'frise-bichon',
+    title: 'breed: frise-bichon',
     cols: 2,
   },
 ];
