@@ -1,0 +1,35 @@
+.Feedback{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.feedback-title{
+    color: #2F2E41;
+}
+
+.form-control{
+    text-align: left;
+}
+
+input, textarea{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 40px;
+    text-align: top;
+    font-family: Inter;
+}
+
+.message{
+    height: 130px;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
