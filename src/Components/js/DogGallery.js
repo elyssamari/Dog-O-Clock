@@ -1,3 +1,12 @@
+/*
+ * FILE: DogGallery.js
+ *
+ * AUTHOR(S): Elyssa Mari Tapawan
+ * 
+ * PURPOSE: This file contains the Dog Gallery Section
+ * showing a image list of set dogs.
+ */
+
 import '../css/DogGallery.css';
 import * as React from 'react';
 import { Typography, ImageList, ImageListItem } from '@mui/material';
@@ -38,7 +47,7 @@ function DogGallery(props) {
           </ImageListItem>
         ))}
       </ImageList>
-      
+
     </div>
   );
 }

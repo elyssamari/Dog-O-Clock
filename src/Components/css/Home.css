@@ -1,3 +1,11 @@
+/*
+ * FILE: Home.css
+ * 
+ * AUTHOR(S): Elyssa Mari Tapawan
+ *
+ * PURPOSE: This file contains the Home CSS for the application.
+ */
+
 .Home{
     margin-top: 80px;
     justify-content: center;
@@ -10,3 +18,5 @@
 .home-title{
     color: #2F2E41;
 }
+
+

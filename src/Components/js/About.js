@@ -1,3 +1,12 @@
+/*
+ * FILE: About.js
+ *
+ * AUTHOR(S): Elyssa Mari Tapawan
+ * 
+ * PURPOSE: This file contains the About Section with 
+ * information about the application.
+ */
+
 import '../css/About.css';
 import * as React from 'react';
 import { Typography } from '@mui/material';
@@ -31,7 +40,7 @@ function About(props) {
           If you don’t like the dog breed you get, just keep hitting the button until you do!
         </Typography>
       </div>
-      
+
     </div>
   );
 }

@@ -1,3 +1,14 @@
+/*
+ * FILE: Home.js
+ *
+ * AUTHOR(S): Elyssa Mari Tapawan
+ * 
+ * PURPOSE: This file contains the page for the
+ * random dog generator, which functionalities
+ * consists of looking at previous dog images and
+ * generating random dog images.
+ */
+
 import '../css/Home.css';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
@@ -73,7 +84,7 @@ function Home(props) {
             <Button variant="contained" onClick={fetchPreviousImg} style={{ fontFamily: "Inter", color: "#5B5B5B", backgroundColor: "#D9D9D9"}}>Previous</Button>
             <Button variant="contained" onClick={getDogImage} style={{ fontFamily: "Inter", backgroundColor: "#2f2e41"}}>Generate</Button>
             </Stack>
-            
+
         </div>
     );
 };

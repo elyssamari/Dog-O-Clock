@@ -1,3 +1,13 @@
+/*
+ * FILE: App.js
+ *
+ * AUTHOR(S): Elyssa Mari Tapawan
+ *
+ * PURPOSE: This file contains the App.js for the application.
+ * This component controls the main layout of the application.
+ */
+
+
 import './App.css';
 import React, { useRef } from 'react';
 import Navbar from './Components/js/Navbar';

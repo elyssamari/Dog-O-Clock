@@ -1,3 +1,14 @@
+/*
+ * FILE: Feedback.js
+ *
+ * AUTHOR(S): Elyssa Mari Tapawan
+ * 
+ * PURPOSE: This file contains the Feedback section where
+ * users can send a message about their thoughts on the application.
+ * 
+ * NOTE: Only for UI purposes. It does not submit the form.
+ */
+
 import '../css/Feedback.css';
 import * as React from 'react';
 import { Card, CardContent, Typography, Button} from '@mui/material';

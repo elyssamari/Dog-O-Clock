@@ -1,3 +1,13 @@
+/*
+ * FILE: Footer.js
+ *
+ * AUTHOR(S): Elyssa Mari Tapawan
+ * 
+ * PURPOSE: This file contains the Footer with 
+ * information regarding who it was developed by,
+ * supported by, and sources.
+ */
+
 import '../css/Footer.css';
 import * as React from 'react';
 import { Typography, Stack, Link } from '@mui/material';
@@ -9,7 +19,7 @@ function Footer() {
     <div className="Footer">
 
     <Stack spacing={25} direction="row">
-        
+
         <div>
         <Typography variant="h6" sx={{ flexGrow: 1 }} style={{ fontFamily: "Inter", marginLeft: 50, marginBottom: 10}}>Developed By: </Typography>
         <div className="justify-content-md-center" id="footer-line1"></div>

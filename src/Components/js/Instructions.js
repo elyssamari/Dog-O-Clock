@@ -1,3 +1,12 @@
+/*
+ * FILE: Instructions.js
+ *
+ * AUTHOR(S): Elyssa Mari Tapawan
+ * 
+ * PURPOSE: This file contains the Instructions Section with 
+ * instructions on how to use the random dog generator and a button that goes it.
+ */
+
 import '../css/Instructions.css';
 import * as React from 'react';
 import { Typography, Stack, Button } from '@mui/material';
