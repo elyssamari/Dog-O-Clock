@@ -11,13 +11,13 @@ function srcset(image, size, rows = 1, cols = 1) {
   };
 }
 
-function DogGallery(image, size, rows = 1, cols = 1) {
+function DogGallery(props) {
   return (
-    <div className="DogGallery">
-      <Typography className="dog-gallery-title" variant="h3" sx={{ flexGrow: 1 }} style={{ fontFamily: "Fredoka One", margin: 50 }}> Dog Gallery </Typography>
+    <div className="DogGallery" ref={props.gallery}>
+      <Typography className="dog-gallery-title" variant="h3" sx={{ flexGrow: 1 }} style={{ fontFamily: "Fredoka One", margin: 60 }}> Dog Gallery </Typography>
 
       <ImageList
-        sx={{ width: 1150, height: 2430}}
+        sx={{ width: 1150, height: 2430, marginBottom: '9rem'}}
         variant="quilted"
         cols={4}
         rowHeight={400}

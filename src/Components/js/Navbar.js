@@ -5,7 +5,28 @@ import "@fontsource/fredoka-one";
 
 function Navbar(props) {
 
-    const scrollToSection = (eleRef) => {
+    const scrollToAbout = (eleRef) => {
+        window.scrollTo({
+            top: eleRef.current.offsetTop - 175,
+            behavior: 'smooth',
+        })
+    }
+
+    const scrollToInstuctions = (eleRef) => {
+        window.scrollTo({
+            top: eleRef.current.offsetTop - 175,
+            behavior: 'smooth',
+        })
+    }
+
+    const scrollToDogGallery = (eleRef) => {
+        window.scrollTo({
+            top: eleRef.current.offsetTop - 80,
+            behavior: 'smooth',
+        })
+    }
+
+    const scrollToFeedback= (eleRef) => {
         window.scrollTo({
             top: eleRef.current.offsetTop,
             behavior: 'smooth',
@@ -35,29 +56,32 @@ function Navbar(props) {
                         <Button 
                         color="inherit" 
                         style={{ fontFamily: "Fredoka One" }} 
-                        sx={{":hover": { textDecoration: "underline", }, ml: 3, mr: 3, fontSize: 16, fontWeight: 10}}
-                        onClick={() => scrollToSection(props.about)}>
+                        sx={{":hover": { textDecoration: "underline", }, ml: 3, mr: 3, fontSize: 16}}
+                        onClick={() => scrollToAbout(props.about)}>
                             About
                         </Button>
 
                         <Button 
                         color="inherit" 
                         style={{ fontFamily: "Fredoka One" }} 
-                        sx={{":hover": { textDecoration: "underline", }, ml: 3, mr: 3, fontSize: 16}}>
+                        sx={{":hover": { textDecoration: "underline", }, ml: 3, mr: 3, fontSize: 16}}
+                        onClick={() => scrollToInstuctions(props.instructions)}>
                             Instructions
                         </Button>
 
                         <Button 
                         color="inherit" 
                         style={{ fontFamily: "Fredoka One" }} 
-                        sx={{":hover": { textDecoration: "underline", }, ml: 3, mr: 3, fontSize: 16}}>
+                        sx={{":hover": { textDecoration: "underline", }, ml: 3, mr: 3, fontSize: 16}}
+                        onClick={() => scrollToDogGallery(props.gallery)}>
                             Dog Gallery
                         </Button>
 
                         <Button 
                         color="inherit" 
                         style={{ fontFamily: "Fredoka One" }} 
-                        sx={{":hover": { textDecoration: "underline", }, ml: 3, mr: 3, fontSize: 16}}>
+                        sx={{":hover": { textDecoration: "underline", }, ml: 3, mr: 3, fontSize: 16}}
+                        onClick={() => scrollToFeedback(props.feedback)}>
                             Feedback
                         </Button>
                     </Toolbar>

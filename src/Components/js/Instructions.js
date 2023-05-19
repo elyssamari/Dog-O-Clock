@@ -4,9 +4,9 @@ import { Typography, Stack, Button } from '@mui/material';
 import "@fontsource/fredoka-one";
 import "@fontsource/inter";
 
-function Instructions() {
+function Instructions(props) {
     return (
-      <div className="Instructions">
+      <div className="Instructions" ref={props.instructions}>
       <Typography className="instruction-title" variant="h3" sx={{ flexGrow: 1 }} style={{ fontFamily: "Fredoka One", margin: 50}}>Instructions</Typography>
 
       <Stack className="blobs" spacing={0} direction="row">

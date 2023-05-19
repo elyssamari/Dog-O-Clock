@@ -4,6 +4,7 @@
     display: flex;
     text-align: center;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 
 .instruction-title{
@@ -12,4 +13,5 @@
 
 .blobs{
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }

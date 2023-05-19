@@ -1,13 +1,13 @@
 import '../css/Feedback.css';
 import * as React from 'react';
-import { Card, CardContent, Typography, Button } from '@mui/material';
+import { Card, CardContent, Typography, Button} from '@mui/material';
 import FormControl from '@mui/material/FormControl';
 import "@fontsource/fredoka-one";
 import "@fontsource/inter";
 
-function Feedback() {
+function Feedback(props) {
   return (
-    <div className="Feedback">
+    <div className="Feedback" ref={props.feedback}>
       <Card sx={{ width: 1200, height: 830 }} style={{ margin: 100, backgroundColor: "#D0F4DE" }} >
         <CardContent >
           <Typography className="feedback-title" variant="h3" sx={{ flexGrow: 1 }} style={{ fontFamily: "Fredoka One", margin: 25 }}>Feedback</Typography>
