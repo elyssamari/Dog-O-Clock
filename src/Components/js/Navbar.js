@@ -49,7 +49,13 @@ function Navbar(props) {
                         <IconButton size="large" edge="start" sx={{ mr: 2}} onClick={() => scrollToTop()}>
                             <img alt="Dog O'Clock Logo" src="dog-oclock-logo-512.png" width="60px" height="60px" />
                         </IconButton>
-                        <Typography className="dog-oclock-logo" variant="h4" sx={{ flexGrow: 1 }} style={{ fontFamily: "Fredoka One"}} onClick={() => scrollToTop()}>
+                        
+                        <Typography 
+                        className="dog-oclock-logo" 
+                        variant="h4" 
+                        sx={{ flexGrow: 1 }} 
+                        style={{ fontFamily: "Fredoka One"}} 
+                        onClick={() => scrollToTop()}>
                             Dog O'Clock
                         </Typography>
 

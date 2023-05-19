@@ -7,7 +7,14 @@ import "@fontsource/inter";
 function About(props) {
   return (
     <div className="About" ref={props.about}>
-      <Typography className="about-title" variant="h3" sx={{ flexGrow: 1 }} style={{ fontFamily: "Fredoka One", marginTop: '7rem'}}>About</Typography>
+
+      <Typography 
+      className="about-title" 
+      variant="h3" 
+      sx={{ flexGrow: 1 }} 
+      style={{ fontFamily: "Fredoka One", marginTop: '7rem'}}>
+        About
+      </Typography>
       
       <div className="about-text">
         <Typography className="description" variant="h6" style={{fontFamily: "Inter"}}>
@@ -24,6 +31,7 @@ function About(props) {
           If you don’t like the dog breed you get, just keep hitting the button until you do!
         </Typography>
       </div>
+      
     </div>
   );
 }

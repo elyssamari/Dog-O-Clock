@@ -14,14 +14,20 @@ function srcset(image, size, rows = 1, cols = 1) {
 function DogGallery(props) {
   return (
     <div className="DogGallery" ref={props.gallery}>
-      <Typography className="dog-gallery-title" variant="h3" sx={{ flexGrow: 1 }} style={{ fontFamily: "Fredoka One", margin: 60 }}> Dog Gallery </Typography>
+
+      <Typography 
+      className="dog-gallery-title" 
+      variant="h3" 
+      sx={{ flexGrow: 1 }} 
+      style={{ fontFamily: "Fredoka One", margin: 60 }}> 
+        Dog Gallery 
+      </Typography>
 
       <ImageList
         sx={{ width: 1150, height: 2430, marginBottom: '9rem'}}
         variant="quilted"
         cols={4}
-        rowHeight={400}
-      >
+        rowHeight={400}>
         {itemData.map((item) => (
           <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
             <img
@@ -32,6 +38,7 @@ function DogGallery(props) {
           </ImageListItem>
         ))}
       </ImageList>
+      
     </div>
   );
 }

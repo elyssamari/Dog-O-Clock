@@ -1,5 +1,5 @@
 .About{
-    margin-top: 7em;
+    margin-top: 7rem;
     background-color: #D0F4DE;
     justify-content: center;
     align-items: center;
@@ -13,18 +13,13 @@
 }
 
 .about-text{
-    margin-top: 3rem;
-    margin-left: 18rem;
-    margin-right: 18rem;
-    margin-bottom: 8rem;
+    margin: 3rem 18rem 8rem 18rem;
 }
 
 @media screen and (max-width: 1500px){
     .about-text{
-        margin-top: 2rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        margin-bottom: 8rem;
+        margin: 2rem 2rem 8rem 2rem;
+
     }
 }
 

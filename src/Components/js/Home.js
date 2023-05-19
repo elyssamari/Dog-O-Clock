@@ -51,14 +51,29 @@ function Home(props) {
     return (
         <div className="Home">
 
-            <Typography className="home-title" variant="h3" sx={{ flexGrow: 1 }} style={{ fontFamily: "Fredoka One", margin: 30}}>Random Dog Generator</Typography>
+            <Typography 
+            className="home-title" 
+            variant="h3" 
+            sx={{ flexGrow: 1 }} 
+            style={{ fontFamily: "Fredoka One", margin: 30}}>
+                Random Dog Generator
+            </Typography>
+
             <img className="dog-img" style={{height:"35em"}} src={imgURL} alt="{breedName}"/>
-            <Typography className="breed-name" variant="h4" sx={{ flexGrow: 1 }} style={{ fontFamily: "Inter", fontWeight: 600, margin: 30, color: "#2f2e41"}}>{breedName}r</Typography>
+
+            <Typography 
+            className="breed-name" 
+            variant="h4" 
+            sx={{ flexGrow: 1 }} 
+            style={{ fontFamily: "Inter", fontWeight: 600, margin: 30, color: "#2f2e41"}}>
+                {breedName}
+            </Typography>
 
             <Stack spacing={4} direction="row">
             <Button variant="contained" onClick={fetchPreviousImg} style={{ fontFamily: "Inter", color: "#5B5B5B", backgroundColor: "#D9D9D9"}}>Previous</Button>
             <Button variant="contained" onClick={getDogImage} style={{ fontFamily: "Inter", backgroundColor: "#2f2e41"}}>Generate</Button>
             </Stack>
+            
         </div>
     );
 };

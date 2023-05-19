@@ -5,9 +5,24 @@ import "@fontsource/fredoka-one";
 import "@fontsource/inter";
 
 function Instructions(props) {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    })
+}
+
     return (
       <div className="Instructions" ref={props.instructions}>
-      <Typography className="instruction-title" variant="h3" sx={{ flexGrow: 1 }} style={{ fontFamily: "Fredoka One", margin: 50}}>Instructions</Typography>
+
+      <Typography 
+      className="instruction-title" 
+      variant="h3" 
+      sx={{ flexGrow: 1 }} 
+      style={{ fontFamily: "Fredoka One", margin: 50}}>
+        Instructions
+      </Typography>
 
       <Stack className="blobs" spacing={0} direction="row">
         <div>
@@ -27,12 +42,12 @@ function Instructions(props) {
         <div>
         <img alt="instruction-3" src="/blob3.png" style={{width:300, height:300}}/>
         <Typography className="desc-1" style={{ fontFamily: "Inter", marginTop: 20}} sx={{ml:18, mr:18}}>
-          To see a closer looks, click on the photo and a pop-up will appear. 
+            Enjoy the photo you have generated and use it in your own way!
         </Typography>
         </div>
       </Stack>
 
-      <Button variant="contained" style={{ fontFamily: "Inter", backgroundColor: "#2f2e41", margin: 30}}> Get Started </Button>
+      <Button variant="contained" style={{ fontFamily: "Inter", backgroundColor: "#2f2e41", margin: 30}} onClick={() => scrollToTop()}> Get Started </Button>
 
       </div>
     );
