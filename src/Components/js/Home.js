@@ -13,18 +13,11 @@ import '../css/Home.css';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { Stack, Button, Typography } from '@mui/material';
-import PropTypes from 'prop-types';
 import "@fontsource/fredoka-one";
 import "@fontsource/inter";
 
-Home.propTypes = {
-    onClose: PropTypes.func.isRequired,
-    open: PropTypes.bool.isRequired,
-    selectedValue: PropTypes.string.isRequired,
-  };
-
   
-function Home(props) {
+function Home() {
 
     const [imgURL, setImgURL] = useState('');
     const [previousImg, setPreviousImg] = useState([]);
