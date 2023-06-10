@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dog-O-Clock/static/css/main.eb045e01.css",
-    "main.js": "/Dog-O-Clock/static/js/main.dc63d2f2.js",
+    "main.js": "/Dog-O-Clock/static/js/main.ccdb667f.js",
     "static/media/inter-all-400-normal.woff": "/Dog-O-Clock/static/media/inter-all-400-normal.8c804432e8c67741aac0.woff",
     "static/media/inter-latin-ext-400-normal.woff2": "/Dog-O-Clock/static/media/inter-latin-ext-400-normal.3a7a76525d98d25962eb.woff2",
     "static/media/fredoka-one-all-400-normal.woff": "/Dog-O-Clock/static/media/fredoka-one-all-400-normal.5823e00913c9677e1611.woff",
@@ -14,10 +14,10 @@
     "static/media/inter-vietnamese-400-normal.woff2": "/Dog-O-Clock/static/media/inter-vietnamese-400-normal.789afb71d327988e2fc8.woff2",
     "index.html": "/Dog-O-Clock/index.html",
     "main.eb045e01.css.map": "/Dog-O-Clock/static/css/main.eb045e01.css.map",
-    "main.dc63d2f2.js.map": "/Dog-O-Clock/static/js/main.dc63d2f2.js.map"
+    "main.ccdb667f.js.map": "/Dog-O-Clock/static/js/main.ccdb667f.js.map"
   },
   "entrypoints": [
     "static/css/main.eb045e01.css",
-    "static/js/main.dc63d2f2.js"
+    "static/js/main.ccdb667f.js"
   ]
 }
