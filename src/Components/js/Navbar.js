@@ -13,6 +13,7 @@ import React from 'react';
 import { AppBar, Box, Toolbar, Typography, Button, IconButton } from '@mui/material';
 import "@fontsource/fredoka-one";
 
+
 function Navbar(props) {
 
     const scrollToAbout = (eleRef) => {
@@ -57,7 +58,7 @@ function Navbar(props) {
                     <Toolbar>
                         
                         <IconButton size="large" edge="start" sx={{ mr: 2}} onClick={() => scrollToTop()}>
-                            <img alt="Dog O'Clock Logo" src="dog-oclock-logo-512.png" width="60px" height="60px" />
+                            <img alt="Dog O'Clock Logo" src="dog-oclock-logo-512.png" width="60px" height="60px" /> 
                         </IconButton>
 
                         <Typography 
